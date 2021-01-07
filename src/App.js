@@ -37,7 +37,7 @@ function App() {
             fetchData();
         }, 3000);
         return () => clearInterval(interval);
-    }, []);
+    }, [customerTheme]);
 
     return (
         <div className="App" style={{'backgroundColor': colors.$COLOR_LIGHT}}>
